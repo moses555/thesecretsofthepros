@@ -1,0 +1,67 @@
+.art-collection {
+    background-color: rgb(241, 241, 241);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 6rem;
+}
+
+.art-collection .wrapper {
+    border: 4px solid rgb(198, 195, 195);
+    padding: 7rem 2rem;
+    margin: 33px 0;
+}
+.art-collection .wrapper .email-container {
+    position: relative;
+    top: 20px;
+}
+.art-collection .wrapper .email-container #email {
+    padding: 10px;
+    border-radius: 30px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #d8d8d8;
+    border: 1px solid white;
+    outline: none;    
+}
+::placeholder {
+   color: rgb(75, 75, 75);
+   font-size: small;
+}
+.art-collection .wrapper .email-container #submit {
+    display: block;
+    color: #000000;
+    border: 1px solid rgb(124,124,124);
+    margin: 20px auto;
+    padding: 5px 20px;
+    outline: transparent;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.art-collection .wrapper h5 {
+    text-transform: uppercase;
+    color: rgb(65, 65, 65);
+    font-weight: 400;
+    font-size: large;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.art-collection .wrapper h2 {
+    color: rgb(37, 37, 37);
+    text-transform: uppercase;
+    border: 2px solid rgb(37, 37, 37);
+    text-align: center;
+    margin: 10px 0 15px 0;
+    padding: 5px 11px;
+}
+
+.art-collection .wrapper h2 span {
+    color: rgb(200, 142, 46);
+}
+
+.art-collection .wrapper p {
+    color: rgb(98, 98, 98);
+    font-size: small;
+}

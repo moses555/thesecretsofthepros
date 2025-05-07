@@ -1,0 +1,50 @@
+.all-products {
+    margin-top: 8rem;
+}
+
+.all-products .header {
+    text-align: center;
+}
+
+.all-products .header h5 {
+    color: rgb(184, 184, 184);
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.all-products .header h2 {
+    color: #191919;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.all-products .image-wrapper {
+    /* text-align: center;
+    padding: 20px;
+    margin-top: 6rem;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap; */
+    text-align: center;
+    padding: 20px;
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.all-products .image-wrapper figure a img {
+    background-color: rgb(246,246,246);
+    padding: 20px;
+    margin: 10px;
+    -o-transition : margin-top 300ms ease-in-out;
+    -moz-transition: margin-top 300ms ease-in-out;
+    -webkit-transition: margin-top 300ms ease-in-out;
+    transition: margin-top 300ms ease-in-out;
+}
+
+.all-products .image-wrapper figure a img:hover {
+    margin-top: 2px;
+}

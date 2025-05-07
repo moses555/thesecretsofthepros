@@ -1,0 +1,210 @@
+header>.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+header>.container>.icon-container {
+    padding: 20px;
+}
+
+header>.container>.mobile-section {
+    position: absolute;
+    left: 0;
+    background-color: #39373c;
+    height: 100vh;
+    z-index: 2;
+    width: 12rem;
+    text-align: center;
+}
+.active {
+    display: none;
+}
+
+header>.container>.mobile-section>.mobile-menu li {
+    list-style-type: none;
+    position: relative;
+    top: 3rem;
+    padding: 10px;
+}
+
+header>.container>.mobile-section>.mobile-menu a {
+    text-decoration: none;
+    color: rgb(246, 246, 250);
+    text-transform: uppercase;
+}
+
+header>.container>.icon-container div.outer-dotted, div.inner-dotted {
+    border: 3px dotted rgb(164, 41, 163);
+    display: inline-block;
+    border-radius: 30px;
+    padding: 3px;
+}
+
+.logo {
+    color: rgb(246, 246, 250);
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav {
+    position: absolute;
+    left: 8rem;
+}
+
+nav>.container ul {
+    display: flex;
+    padding: 28px 0;
+}
+
+nav>.container ul li {
+    list-style-type: none;
+    padding: 0 40px;
+}
+
+nav>.container ul li a {
+    color: rgb(246, 246, 250);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+header>.container .request-demo {
+    padding: 28px 20px;
+    position: absolute;
+    right: 8rem;
+}
+
+header>.container .request-demo a {
+    color: rgb(246, 246, 250);
+    text-decoration: none;
+    border: 1px solid rgb(210, 55, 141);
+    padding: 8px 16px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+header>.container .request-demo a:hover {
+    background-color: rgb(195, 50, 141);
+}
+
+header>.container div.ham-menu {
+    background-image: url("https://haroldcabrera.com/presentation/landing-page-projects/exposure/img/ham-icon.svg");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: -146%;
+    top: 1.2rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1223px) and (max-width: 1215px) {
+    header>.container div.ham-menu {
+        display: none;
+    }
+}
+
+/* => Ipad */
+
+@media only screen and (min-width: 1024px) {
+    header>.container div.ham-menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 767px) and (orientation: portrait) {
+    header>.container div.ham-menu {
+        right: -173%;
+        z-index: 1;
+        cursor: pointer;
+    }
+    nav>.container ul.active {
+        display: none;
+    }
+    header>.container .request-demo {
+        display: none;
+    }
+    nav>.container ul li {
+        padding: 0 32px;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 813px) and (orientation: landscape) {
+    header>.container div.ham-menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 990px) and (min-width: 853px) {
+    nav>.container ul li {
+        padding: 0 32px;
+    }
+}
+
+/* ==> Mobile */
+
+@media only screen and (min-width: 767px) and (max-width: 812px) and (orientation: landscape) {
+    nav>.container ul.active {
+        display: none;
+    }
+    header>.container .request-demo {
+        display: none;
+    }
+    header>.container div.ham-menu {
+        right: -174%;
+        z-index: 1;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    header>.container .request-demo {
+        display: none;
+    }
+    section#image {
+        position: relative;
+        top: -5.3rem;
+    }
+    nav>.container ul.active {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    header>.container div.ham-menu {
+        right: -170%;
+        z-index: 1;
+        cursor: pointer;
+    }
+    header>.container .request-demo {
+        display: none;
+    }
+    section#image {
+        position: relative;
+        top: -5.3rem;
+    }
+    nav>.container ul.active {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 666px) and (min-width: 500px) {
+    header>.container div.ham-menu {
+        right: -171%;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    header>.container div.ham-menu {
+        z-index: 1;
+        cursor: pointer;
+    }
+}

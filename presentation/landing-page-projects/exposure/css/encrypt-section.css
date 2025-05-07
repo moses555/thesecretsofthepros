@@ -1,0 +1,105 @@
+section#encrypt {
+    margin-top: 10rem;
+}
+
+section#encrypt div.encrypt-container {
+    margin-top: 3rem;
+}
+
+section#encrypt div.encrypt-container div.encrypt-title {
+    text-align: center;
+}
+
+section#encrypt div.encrypt-container div.encrypt-title h2 {
+    color: rgb(246, 246, 250);
+    font-size: 2.4rem;
+}
+
+section#encrypt div.encrypt-container div.encrypt-image {
+    text-align: center;
+    margin: 2.5rem 12%;
+    max-width: 66rem;
+}
+
+
+/* here */
+
+section#encrypt div.encrypt-container div.input-section {
+    text-align: center;
+    margin-top: 110px;
+}
+
+section#encrypt div.encrypt-container div.input-section h2 {
+    color: rgb(246, 246, 250);
+    font-size: 2rem;
+    padding: 30px 0;
+}
+
+section#encrypt div.encrypt-container div.input-section input {
+    padding: 15px;
+    width: 18rem;
+    border-radius: 30px;
+    background-color: rgba(122, 38, 134, 0.993);
+    outline: none;
+}
+
+section#encrypt div.encrypt-container div.input-section input:focus {
+    background-color: rgb(210, 55, 141);
+}
+
+section#encrypt div.encrypt-container div.input-section input::placeholder {
+    color: white;
+    font-size: 0.9rem;
+}
+
+section#encrypt div.encrypt-container div.input-section .convert-btn {
+    color: rgb(246, 246, 250);
+    text-decoration: none;
+    border: 1px solid rgb(210, 55, 141);
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    top: 6.6rem;
+    position: relative;
+    top: 2rem;
+}
+
+section#encrypt div.encrypt-container div.input-section .convert-btn:hover {
+    background-color: rgb(210, 55, 141);
+}
+
+section#encrypt div.encrypt-container div.encrypt-image img {
+    width: 80%;
+}
+
+@media only screen and (min-width: 1023px) {
+    section#encrypt div.encrypt-container div.encrypt-image {
+        max-width: none;
+    }
+    #footer {
+        bottom: -7rem !important;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    section#encrypt div.encrypt-container div.encrypt-title h2 {
+        font-size: 2.2rem;
+    }
+    section#encrypt div.encrypt-container div.encrypt-image {
+        margin: 2.5rem 0.5%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    section#encrypt div.encrypt-container div.encrypt-title h2 {
+        font-size: 2.6rem;
+    }
+    section#encrypt div.encrypt-container div.encrypt-image {
+        margin: 2.5rem 0.5%;
+        width: 100%;
+    }
+    section#encrypt div.encrypt-container div.encrypt-image img {
+        width: 95%;
+    }
+}

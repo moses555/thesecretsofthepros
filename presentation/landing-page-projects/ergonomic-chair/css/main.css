@@ -1,0 +1,27 @@
+@import "reset.css";
+@import "header-section.css";
+@import "product-banner.css";
+@import "three-chair-section.css";
+@import "two-chair-section.css";
+@import "best-furniture.section.css";
+@import "art-collection-section.css";
+@import "all-products-section.css";
+@import "footer-section.css";
+@import "rwd/responsive.css";
+
+html { 
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -o-scroll-behavior: smooth;
+    -ms-scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

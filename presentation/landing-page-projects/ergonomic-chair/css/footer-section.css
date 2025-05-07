@@ -1,0 +1,136 @@
+footer {
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(226, 226, 226);
+    height: 350px;
+    padding-bottom: 6rem;
+}
+
+/* -------------- LOGO -------------- */
+
+footer .logo-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 1rem;
+}
+
+footer .logo-container .about-office {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 3.2rem;
+    left: 0.6rem;
+}
+
+footer .logo-container .about-office a {
+    padding: 4px 0;
+    text-transform: uppercase;
+    font-size: x-small;
+    color: #737373;
+}
+
+footer .logo-container img {
+    border-radius: 100%;
+}
+
+footer .logo-container .logo-header h4 {
+    color: #424242;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+footer .logo-container .logo-header p {
+    color: rgb(158, 158, 158);
+    font-size: x-small;
+    text-transform: uppercase;
+    padding: 2px 0;
+}
+
+/* -------------- COLLECTION -------------- */
+
+footer .border-orange {
+    border-left: 3px solid rgb(200, 138, 46);
+    padding: 0 10px;
+}
+
+footer .collection-header h4 {
+    color: #424242;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+footer .collection-header {
+    position: relative;
+}
+
+footer .collection-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 3.2rem;
+    left: 0rem;
+}
+
+footer .collection-links a {
+    padding: 4px 0;
+    text-transform: uppercase;
+    font-size: x-small;
+    color: #737373;
+}
+
+/* -------------- EXTRA -------------- */
+footer .extra-header {
+    position: relative;
+}
+
+footer .extra-header .extra-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 3.2rem;
+    left: 0rem;
+}
+
+footer .extra-header .extra-links a {
+    padding: 4px 0;
+    text-transform: uppercase;
+    font-size: x-small;
+    color: #737373;
+}
+
+footer .extra-header h4 {
+    color: #424242;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+/* -------------- ACCOUNT -------------- */
+footer .account-header {
+    position: relative;
+}
+
+footer .account-header .account-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 3.2rem;
+    left: 0rem;
+}
+
+footer .account-header .account-links a {
+    padding: 4px 0;
+    text-transform: uppercase;
+    font-size: x-small;
+    color: #737373;
+}
+
+footer .account-header h4 {
+    color: #424242;
+    text-transform: uppercase;
+    font-size: small;
+}
+

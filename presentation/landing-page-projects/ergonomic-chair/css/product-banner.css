@@ -1,0 +1,57 @@
+/* ----------------------- LEFT SECTION ----------------------- */
+.product-banner {
+  border-top: 1px solid rgb(255, 255, 255);
+  padding: 10% 11%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.info {
+  padding: 0 14%;
+}
+
+.info h4 {
+  text-transform: uppercase;
+  color: rgb(38, 38, 38);
+  font-size: smaller;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.info h2 {
+  color: rgb(38, 38, 38);
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.info span {
+  color: rgb(197, 138, 45);
+}
+
+.info p {
+  color: rgb(83, 83, 83);
+}
+
+.info a {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: rgb(38, 38, 38);
+  padding: 10px 30px;
+  display: inline-block;
+  margin-top: 35px;
+}
+
+/* ----------------------- RIGHT SECTION ----------------------- */
+
+.product-banner figure {
+  text-align: end;
+  bottom: 28%;
+  padding: 0 2%;
+}
+
+.product-banner figure img {
+  width: 60%;
+}

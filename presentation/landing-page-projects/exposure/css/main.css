@@ -1,0 +1,29 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&amp;display=swap');
+@import "header-section.css";
+@import "image-section.css";
+@import "trusted-section.css";
+@import "confidence-section.css";
+@import "latest-news-section.css";
+@import "encrypt-section.css";
+@import "footer-section.css";
+html {
+    font-family: 'Lato', sans-serif;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #7c2098;
+    background: -moz-linear-gradient(-45deg, #7c2098 0%, #2a126d 100%);
+    background: -webkit-linear-gradient(-45deg, #7c2098 0%, #2a126d 100%);
+    background: linear-gradient(135deg, #7c2098 0%, #2a126d 100%);
+    background-repeat: no-repeat;
+}

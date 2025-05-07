@@ -1,0 +1,53 @@
+.best-furniture {
+    margin-top: 8rem;
+}
+
+.furniture-header {
+    text-align: center;
+}
+
+.best-furniture .wrapper {
+    text-align: center;
+    padding: 20px;
+    margin-top: 6rem;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.best-furniture .wrapper figure h4 {
+    color: rgb(11, 11, 11);
+    text-transform: capitalize;
+    font-size: 0.7rem;
+    margin-top: 5px;
+}
+
+.best-furniture .wrapper figure p {
+    color: rgb(184, 184, 184);
+    font-size: smaller;
+    margin-top: 5px;
+}
+
+.best-furniture .furniture-header h5 {
+    color: rgb(184, 184, 184);
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.best-furniture .furniture-header h2 {
+    color: #191919;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+/* --------------- TRANSITIONS --------------- */
+.best-furniture .wrapper figure img {
+  transition: transform  100ms ease;
+}
+
+.best-furniture .wrapper figure:hover img {
+    transform: rotate(-16deg);
+}

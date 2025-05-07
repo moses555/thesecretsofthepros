@@ -1,0 +1,92 @@
+/* ++++++++++++++++++++++ HAMBURGER ++++++++++++++++++++++*/
+
+.right {
+  height: 43rem;
+}
+
+.top-section .top-container {
+  display: inherit;
+}
+
+.ham-menu {
+  bottom: 3.5rem;
+}
+
+/* ++++++++++++++++++++++ NAV ++++++++++++++++++++++*/
+
+.portfolio-wrapper {
+  margin: 20px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 10px;
+  letter-spacing: 1px;
+}
+
+a {
+  color: rgb(115, 133, 151);
+  font-size: 0.9rem;
+}
+
+a:hover {
+  color: rgb(28, 42, 242);
+}
+
+.home {
+  color: rgb(28, 42, 242);
+}
+
+/* ++++++++++++++++++++++ LAYOUT ++++++++++++++++++++++*/
+
+.project-layout {
+  margin-top: -60px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+}
+
+.project-layout > figure {
+  height: 100px;
+  width: 220px;
+  border-radius: 10px;
+}
+
+/* ++++++++++++++++++++++ THUMBNAILS ++++++++++++++++++++++*/
+
+.project-layout figure.ergonomic-chair,
+figure.exposure,
+figure.paypal,
+figure.apple {
+  height: 100%;
+  width: 100%;
+  min-height: 140px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-layout figure img {
+  border-radius: 20px;
+  border: 1px solid rgb(107, 124, 141);
+  width: 100%;
+  height: 100%;
+}
+
+/* ++++++++++++++++++++++ CODE ++++++++++++++++++++++ */
+
+.project-layout figure .github {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.project-layout figure {
+  transition: transform 300ms ease-in-out;
+}
+
+.project-layout figure:hover .github {
+  transform: scale(1.1);
+}

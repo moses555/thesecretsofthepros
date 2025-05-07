@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1502.154" height="199.751" viewBox="0 0 1502.154 199.751">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.038" y1="0.103" x2="0.977" y2="0.933" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3a1164"/>
+      <stop offset="1" stop-color="#8e218f"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(-104.879 -388)">
+    <path id="Path_4" data-name="Path 4" d="M49.621,0H1452.533c27.4,0,49.621,24.717,49.621,55.207v89.336c0,30.49-22.216,55.207-49.621,55.207H49.621C22.216,199.751,0,175.033,0,144.543V55.207C0,24.717,22.216,0,49.621,0Z" transform="translate(104.879 388)" fill="url(#linear-gradient)"/>
+    <line id="Line_1" data-name="Line 1" x2="1359.994" y2="2" transform="translate(174.5 529.035)" fill="none" stroke="#fff" stroke-width="1"/>
+    <text id="CLEAR_TEXT" data-name="CLEAR TEXT" transform="translate(266 501.373)" fill="#f7f7f7" font-size="37" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">CLEAR TEXT</tspan></text>
+    <text id="_09Y_6H_" data-name="09Y$%6H+*" transform="translate(1202.994 501.373)" fill="#f7f7f7" font-size="37" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">09Y$%6H+*</tspan></text>
+    <text id="ENCRYPT" transform="translate(716.997 475.199)" fill="#f7f7f7" font-size="54" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">ENCRYPT</tspan></text>
+  </g>
+</svg>

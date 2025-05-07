@@ -1,0 +1,56 @@
+    /* ------------------ HEADER ---------------------*/
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(241, 241, 241);
+        padding: 2rem 0;
+        justify-content: space-around;
+    }
+
+    /* ------------------- LOGO ---------------------*/
+
+    .logo-container {
+        display: flex;
+    }
+
+    .logo-container figure {
+        position: relative;
+        bottom: 10px;
+    }
+
+    .logo-container h1 {
+        text-transform: uppercase;
+        font-size: x-large;
+        color: rgb(37, 37, 37);
+        margin-left: 0.4rem;
+    }
+
+    .logo-container span {
+        text-transform: uppercase;
+        color: rgb(208, 173, 110);
+        margin-top: 10px;
+        font-size: smaller;
+        letter-spacing: 4px;
+        margin-left: 12px;
+    }
+
+    /* ------------------- NAV ---------------------*/
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav a {
+        color: rgb(16, 16, 16);
+        text-transform: uppercase;
+        font-size: small;
+        padding: 0 10px;
+    }
+
+    .underline-home {
+        display: inline-block;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid rgb(194, 135, 45);
+        border-bottom-width: medium;
+    }

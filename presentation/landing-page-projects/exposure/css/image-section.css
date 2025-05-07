@@ -1,0 +1,144 @@
+section#image {
+    position: relative;
+    top: 4.7rem;
+}
+
+section#image .image-container {
+    display: grid;
+    justify-items: center;
+    position: relative;
+}
+
+section#image .image-container img {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+section#image .title-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+}
+
+section#image .title-container h1 {
+    color: rgb(246, 246, 250);
+    text-transform: uppercase;
+    position: absolute;
+    align-self: center;
+    font-size: 7rem;
+    font-weight: 100;
+    letter-spacing: 2.3rem;
+}
+
+section#image .cloud-security {
+    color: rgb(246, 246, 250);
+    text-align: center;
+    text-transform: uppercase;
+    position: inherit;
+    bottom: 11rem;
+    font-weight: 100;
+    font-size: small;
+}
+
+/* ==> RWD */
+
+@media only screen and (min-width: 1223px) and (max-width: 1215px) {}
+
+@media only screen and (max-width: 1023px) and (orientation: portrait) {
+    section#image .title-container h1 {
+        font-size: 6rem;
+        letter-spacing: 1.3rem;
+        bottom: -2.9rem;
+    }
+}
+
+@media only screen and (max-width: 813px) and (min-width: 767px) {
+    section#image {
+        top: 1.7rem;
+    }
+    section#image .image-container img {
+        width: 86%;
+    }
+    section#image .title-container {
+        top: 47%;
+    }
+    section#image .title-container h1 {
+        font-size: 7rem;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 812px) and (orientation: landscape) {
+    section#image .image-container img {
+        width: 77%;
+    }
+    section#image .title-container {
+        top: 48%;
+    }
+    section#image .title-container h1 {
+        letter-spacing: normal;
+        font-size: 5.6rem;
+    }
+    div#footer .container div.social-links {
+        right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    section#image {
+        position: relative;
+        top: -5.3rem;
+    }
+    section#image .title-container h1 {
+        font-size: 3rem;
+        bottom: -1.1rem;
+        letter-spacing: normal;
+    }
+    section#image div.cloud-security h1 {
+        position: relative;
+        bottom: 40px;
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    section#image {
+        position: relative;
+        top: -5.3rem;
+    }
+    section#image .image-container img {
+        width: 79%;
+    }
+    section#image .title-container h1 {
+        font-size: 5rem;
+        bottom: -2.2rem;
+        letter-spacing: normal;
+    }
+    section#image div.cloud-security h1 {
+        position: relative;
+        bottom: 1rem;
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 666px) and (min-width: 500px) {
+    section#image {
+        top: -5.3rem;
+    }
+    section#image .image-container img {
+        width: 89%;
+    }
+    section#image .title-container h1 {
+        font-size: 5rem;
+        bottom: -2.2rem;
+    }
+    section#image div.cloud-security h1 {
+        bottom: 26px;
+    }
+}
+
+/* RWD <== */

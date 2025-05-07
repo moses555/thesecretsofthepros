@@ -1,0 +1,145 @@
+div#footer {
+    position: relative;
+    bottom: -7rem;
+    background-color: rgb(57, 32, 116);
+    padding-bottom: 20px;
+}
+
+div#footer .container {
+    height: 6rem;
+}
+
+div#footer .container nav ul {
+    display: flex;
+}
+
+div#footer .container nav ul li {
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
+    margin: 0 10%;
+}
+
+div#footer .container nav ul li a {
+    color: rgb(246, 246, 250);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: small;
+    padding: 5px 0;
+}
+
+div#footer .container nav ul li a:hover {
+    border-bottom: 2px solid rgb(41, 113, 234);
+}
+
+div#footer .container .icon-container {
+    position: relative;
+    top: 2.6rem;
+    left: 2rem;
+}
+
+div#footer .container .icon-container .outer-dotted {
+    border: 3px dotted rgb(164, 41, 163);
+    display: inline-block;
+    border-radius: 30px;
+    padding: 3px;
+}
+
+div#footer .container div.social-links {
+    display: flex;
+    position: absolute;
+    right: 8rem;
+    top: 3rem;
+}
+
+div#footer .container div.social-links div.facebook-icon {
+    background-image: url("https://haroldcabrera.com/presentation/landing-page-projects/exposure/img/facebook-icon.svg");
+    width: 2rem;
+    height: 2rem;
+    margin: 0 20px;
+    background-repeat: no-repeat;
+}
+
+div#footer .container div.social-links div.twitter-icon {
+    background-image: url("https://haroldcabrera.com/presentation/landing-page-projects/exposure/img/twitter-icon.svg");
+    width: 2rem;
+    height: 2rem;
+    margin: 0 20px;
+    background-repeat: no-repeat;
+}
+
+div#footer .container div.social-links div.instagram-icon {
+    background-image: url("https://haroldcabrera.com/presentation/landing-page-projects/exposure/img/instagram-icon.svg");
+    width: 2rem;
+    height: 2rem;
+    margin: 0 20px;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 1223px) and (max-width: 1215px) {}
+
+@media only screen and (max-width: 1023px) and (orientation: portrait) {
+    div#footer .container nav ul li {
+        margin: 0 5%;
+    }
+    div#footer .container div.social-links {
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    div#footer .container div.social-links {
+        display: flex;
+        position: absolute;
+        right: 0.5rem;
+        top: 3rem;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 812px) and (orientation: landscape) {
+    div#footer .container div.social-links {
+        right: 1rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    div#footer {
+        bottom: -8rem;
+    }
+    div#footer div.container {
+        height: 9rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    div#footer div.container div.icon-container {
+        position: initial;
+        text-align: center;
+    }
+    div#footer div.container nav {
+        position: relative;
+        left: 0%;
+        top: 0.5rem
+    }
+    div#footer div.container nav ul li {
+        margin: auto;
+    }
+    div#footer .container div.social-links {
+        position: relative;
+        left: 0%;
+        top: 1.6rem;
+    }
+    div#footer .container div.social-links div.facebook-icon {
+        width: 1.5rem;
+    }
+    div#footer .container div.social-links div.twitter-icon {
+        width: 1.5rem;
+    }
+    div#footer .container div.social-links div.instagram-icon {
+        width: 1.5rem;
+    }
+}

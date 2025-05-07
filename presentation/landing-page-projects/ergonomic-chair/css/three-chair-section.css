@@ -1,0 +1,39 @@
+/* ------------------- IMAGE SECTION ------------------- */
+
+.three-column-chairs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 20px;
+    margin-top: 4rem;
+}
+
+.three-column-chairs figure img {
+    width: 60%;
+}
+
+/* ------------------- FIGCAPTION ------------------- */
+
+.three-column-chairs figure h4 {
+    text-transform: uppercase;
+    color: #393939;
+}
+
+.three-column-chairs figure h4 span {
+    color: rgb(200, 142, 46);
+}
+
+.three-column-chairs figure p {
+    color: rgb(160, 160, 160);
+    font-size: small;
+    padding: 5px;
+}
+
+/* ------------------ TRANSITION ------------------ */
+.three-column-chairs figure img {
+    transition: transform 300ms ease-in-out;
+}
+
+.three-column-chairs figure:hover img {
+    transform: translateY(-10%);
+}

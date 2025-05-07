@@ -1,0 +1,91 @@
+    
+    /* T A B L E T */
+
+    @media only screen and (max-width: 1015px) {
+        .all-products .image-wrapper {
+            grid-template-columns: repeat(2, 1fr);
+        }          
+    }
+
+    /* T A B L E T - M O B I L E */
+
+    @media only screen and (max-width: 768px) {
+        .all-products .image-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    }
+
+    /* M O B I L E */
+
+    @media only screen and (max-width: 692px) {
+        header {
+            display: grid;
+        }
+        .logo-container {
+            justify-content: center;
+        }
+        .logo-container h1, span, nav {        
+            text-align: center;
+        }
+        nav li {
+            margin-top: 20px;
+        }
+        .underline-home {
+            border-bottom: none;
+        }
+        .product-banner {
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+        .product-banner figure {
+            display: none;
+        }
+        .three-column-chairs {
+            grid-template-columns: 1fr;
+        }
+        .three-column-chairs figure {
+            margin-top: 2rem;
+        }
+        .art-collection {
+            height: 400px;
+            position: relative;
+            top: 4rem;
+        }
+        .art-collection .wrapper {
+            border: none;
+        }
+        .two-office-chair {
+            grid-template-columns: 1fr;
+            padding: 0;
+        }
+       .wrapper figure {
+           margin-top: 2rem;
+       }
+        footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr;  
+            align-content: space-around;         
+            justify-items: center;
+            min-height: 32rem;
+        }
+        footer .logo-container {
+            top: 0.9rem;
+        }
+        footer .logo-container img {
+            display: none;
+        }
+        footer .logo-container .logo-header p {
+            display: none;
+        }
+        footer .collection-header {
+            top: 0.9rem;
+        }
+        footer .extra-header {
+            top: 0.5rem;
+        }
+        footer .account-header {
+            top: 0.5rem;
+        }
+    }

@@ -1,0 +1,133 @@
+section#trusted div.trusted-container {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* -> ICON SECTION */
+
+section#trusted div.trusted-container div.icon-container {
+    padding: 0 2rem;
+}
+
+section#trusted div.trusted-container div.icon-container img {
+    width: 40px;
+}
+
+
+/* ICON SECTION <- */
+
+
+/* -> TITLE SECTION */
+
+section#trusted div.trusted-container div.title-container {
+    position: relative;
+    margin: 0 21% 0 0;
+}
+
+section#trusted div.trusted-container div.title-container h2 {
+    color: rgb(246, 246, 250);
+    font-size: xx-large;
+}
+
+
+/* TITLE SECTION <- */
+
+
+/* -> LEARN MORE */
+
+section#trusted div.trusted-container div.title-container a {
+    color: rgb(246, 246, 250);
+    text-decoration: none;
+    border: 1px solid rgb(210, 55, 141);
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    position: absolute;
+    top: 6.6rem;
+}
+
+section#trusted div.trusted-container div.title-container a:hover {
+    background-color: rgb(210, 55, 141);
+}
+
+
+/* LEARN MORE <- */
+
+
+/* -> CARD SECTION */
+
+section#trusted div.trusted-container div.card-container {
+    display: flex;
+    margin-right: 3%;
+}
+
+section#trusted div.trusted-container div.card-container div.one {
+    border-top: 2px solid rgb(226, 63, 143);
+    height: 80px;
+    width: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 24, 137);
+    margin: 0 2px;
+}
+
+section#trusted div.trusted-container div.card-container div.two {
+    height: 80px;
+    width: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 24, 137);
+    margin: 0 2px;
+}
+
+section#trusted div.trusted-container div.card-container div.three {
+    height: 80px;
+    width: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 24, 137);
+    margin: 0 2px;
+}
+
+section#trusted div.trusted-container div.card-container div.one,
+div.two,
+div.three>span {
+    color: rgb(246, 246, 250);
+}
+
+
+/* CARD SECTION <- */
+
+@media only screen and (min-width: 1223px) and (max-width: 1215px) {}
+
+@media only screen and (max-width: 1023px) {}
+
+@media only screen and (max-width: 767px) {
+    section#trusted div.trusted-container {
+        margin-top: -11rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    section#trusted div.trusted-container div.title-container {
+        margin: auto;
+    }
+    section#trusted div.trusted-container div.title-container h2 {
+        font-size: 1.6rem;
+        padding: 2rem;
+    }
+    section#trusted div.trusted-container div.title-container a {
+        position: initial;
+    }
+    section#trusted div.trusted-container div.card-container {
+        display: none;
+    }
+}
